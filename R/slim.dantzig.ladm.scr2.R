@@ -7,6 +7,7 @@
 # Version: 1.4.0                                                                   #
 #----------------------------------------------------------------------------------#
 
+#' @export
 slim.dantzig.ladm.scr2 <- function(Y, X, lambda, nlambda, n, d, maxdf, rho, max.ite, prec, intercept, verbose)
 {
   if(verbose==TRUE)
