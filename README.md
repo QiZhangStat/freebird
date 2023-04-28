@@ -29,7 +29,8 @@ the development version of freebird from GitHub by using:
 
 ``` r
 if(requireNamespace("devtools")) install.packages("devtools")
-devtools::install_github("rzhou14/freebird")
+#devtools::install_github("rzhou14/freebird")
+devtools::install_github("QiZhangStat/freebird")# The only difference in this folk as on 04/28/2023 was that this folk exports all functions instead of only the main function hilma.
 ```
 
 We soon hope to have it ready for [CRAN](https://CRAN.R-project.org).
